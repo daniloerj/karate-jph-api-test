@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/trello\/boards\/board-crud[2.1:99]","start":1636673371779,"end":1636673373894,"title":"src\/test\/java\/trello\/boards\/board-crud[2.1:99] 18:29:31.779-18:29:33.894 create a board from api response"},{"id":2,"group":1,"content":"src\/test\/java\/trello\/boards\/board-crud[2.2:99]","start":1636673373901,"end":1636673375666,"title":"src\/test\/java\/trello\/boards\/board-crud[2.2:99] 18:29:33.901-18:29:35.666 create a board from api response"},{"id":3,"group":1,"content":"src\/test\/java\/trello\/boards\/board-crud[2.3:99]","start":1636673375667,"end":1636673377784,"title":"src\/test\/java\/trello\/boards\/board-crud[2.3:99] 18:29:35.667-18:29:37.784 create a board from api response"},{"id":4,"group":1,"content":"src\/test\/java\/trello\/boards\/board-crud[2.4:99]","start":1636673377785,"end":1636673379757,"title":"src\/test\/java\/trello\/boards\/board-crud[2.4:99] 18:29:37.785-18:29:39.757 create a board from api response"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

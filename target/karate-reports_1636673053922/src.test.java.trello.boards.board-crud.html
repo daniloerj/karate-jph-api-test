@@ -1,0 +1,1915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.trello.boards.board-crud</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-11-11 06:23:31 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:17]"><span>[1:17]</span> <span>create board</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/trello/boards/board-crud.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">board test script</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:17]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:17]</span>
+                <span class="scenario-name">create board</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2856</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:17]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url url</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">18:23:28.932 karate.env system property was: null 
+18:23:28.932 karate.company system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestBody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">34</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.4">{
+  &quot;name&quot;:&quot;CreadoDesdeKarate&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = _headers</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jsonData = read(&#39;data/jph.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:17]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def data = 1&gt;2 ? karate.call(&#39;jph.feature@getUsers&#39;) : karate.call(&#39;jph.feature@getPosts&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data = call read(&#39;jph.feature@getUsers&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">671</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.13.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">src.test.java.trello.boards.jph</div>
+      </div>
+      <div class="time-cell passed">660</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://jsonplaceholder.typicode.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">659</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13.0.call.0.8">18:23:29.451 request:
+1 &gt; GET https://jsonplaceholder.typicode.com/users
+1 &gt; Accept: application/json
+1 &gt; transaction-id: test212211
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:23:29.654 response time in milliseconds: 203
+1 &lt; 200
+1 &lt; Date: Thu, 11 Nov 2021 23:23:30 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; x-powered-by: Express
+1 &lt; x-ratelimit-limit: 1000
+1 &lt; x-ratelimit-remaining: 999
+1 &lt; x-ratelimit-reset: 1634740200
+1 &lt; vary: Origin, Accept-Encoding
+1 &lt; access-control-allow-credentials: true
+1 &lt; cache-control: max-age=43200
+1 &lt; pragma: no-cache
+1 &lt; expires: -1
+1 &lt; x-content-type-options: nosniff
+1 &lt; etag: W/&quot;160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ&quot;
+1 &lt; via: 1.1 vegur
+1 &lt; CF-Cache-Status: HIT
+1 &lt; Age: 4321
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=q7lgIEjPsmDyHexAyEo2E64eewi3BwQRxGBNAtY0iBiknbonmtrk21JOz3pfO7JDHSFA3On97AuwMjCDtsypt7BtmJ7q%2Fg38iqLdx%2B0OKMumGr3sQ2maTBpa6wzEwith4dqB9ntKYhPrMLxjM45D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6acb44c98c756df2-LIM
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
+[
+  {
+    &quot;id&quot;: 1,
+    &quot;name&quot;: &quot;Leanne Graham&quot;,
+    &quot;username&quot;: &quot;Bret&quot;,
+    &quot;email&quot;: &quot;Sincere@april.biz&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Kulas Light&quot;,
+      &quot;suite&quot;: &quot;Apt. 556&quot;,
+      &quot;city&quot;: &quot;Gwenborough&quot;,
+      &quot;zipcode&quot;: &quot;92998-3874&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-37.3159&quot;,
+        &quot;lng&quot;: &quot;81.1496&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;1-770-736-8031 x56442&quot;,
+    &quot;website&quot;: &quot;hildegard.org&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Romaguera-Crona&quot;,
+      &quot;catchPhrase&quot;: &quot;Multi-layered client-server neural-net&quot;,
+      &quot;bs&quot;: &quot;harness real-time e-markets&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 2,
+    &quot;name&quot;: &quot;Ervin Howell&quot;,
+    &quot;username&quot;: &quot;Antonette&quot;,
+    &quot;email&quot;: &quot;Shanna@melissa.tv&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Victor Plains&quot;,
+      &quot;suite&quot;: &quot;Suite 879&quot;,
+      &quot;city&quot;: &quot;Wisokyburgh&quot;,
+      &quot;zipcode&quot;: &quot;90566-7771&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-43.9509&quot;,
+        &quot;lng&quot;: &quot;-34.4618&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;010-692-6593 x09125&quot;,
+    &quot;website&quot;: &quot;anastasia.net&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Deckow-Crist&quot;,
+      &quot;catchPhrase&quot;: &quot;Proactive didactic contingency&quot;,
+      &quot;bs&quot;: &quot;synergize scalable supply-chains&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 3,
+    &quot;name&quot;: &quot;Clementine Bauch&quot;,
+    &quot;username&quot;: &quot;Samantha&quot;,
+    &quot;email&quot;: &quot;Nathan@yesenia.net&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Douglas Extension&quot;,
+      &quot;suite&quot;: &quot;Suite 847&quot;,
+      &quot;city&quot;: &quot;McKenziehaven&quot;,
+      &quot;zipcode&quot;: &quot;59590-4157&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-68.6102&quot;,
+        &quot;lng&quot;: &quot;-47.0653&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;1-463-123-4447&quot;,
+    &quot;website&quot;: &quot;ramiro.info&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Romaguera-Jacobson&quot;,
+      &quot;catchPhrase&quot;: &quot;Face to face bifurcated interface&quot;,
+      &quot;bs&quot;: &quot;e-enable strategic applications&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 4,
+    &quot;name&quot;: &quot;Patricia Lebsack&quot;,
+    &quot;username&quot;: &quot;Karianne&quot;,
+    &quot;email&quot;: &quot;Julianne.OConner@kory.org&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Hoeger Mall&quot;,
+      &quot;suite&quot;: &quot;Apt. 692&quot;,
+      &quot;city&quot;: &quot;South Elvis&quot;,
+      &quot;zipcode&quot;: &quot;53919-4257&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;29.4572&quot;,
+        &quot;lng&quot;: &quot;-164.2990&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;493-170-9623 x156&quot;,
+    &quot;website&quot;: &quot;kale.biz&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Robel-Corkery&quot;,
+      &quot;catchPhrase&quot;: &quot;Multi-tiered zero tolerance productivity&quot;,
+      &quot;bs&quot;: &quot;transition cutting-edge web services&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 5,
+    &quot;name&quot;: &quot;Chelsey Dietrich&quot;,
+    &quot;username&quot;: &quot;Kamren&quot;,
+    &quot;email&quot;: &quot;Lucio_Hettinger@annie.ca&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Skiles Walks&quot;,
+      &quot;suite&quot;: &quot;Suite 351&quot;,
+      &quot;city&quot;: &quot;Roscoeview&quot;,
+      &quot;zipcode&quot;: &quot;33263&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-31.8129&quot;,
+        &quot;lng&quot;: &quot;62.5342&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;(254)954-1289&quot;,
+    &quot;website&quot;: &quot;demarco.info&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Keebler LLC&quot;,
+      &quot;catchPhrase&quot;: &quot;User-centric fault-tolerant solution&quot;,
+      &quot;bs&quot;: &quot;revolutionize end-to-end systems&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Mrs. Dennis Schulist&quot;,
+    &quot;username&quot;: &quot;Leopoldo_Corkery&quot;,
+    &quot;email&quot;: &quot;Karley_Dach@jasper.info&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Norberto Crossing&quot;,
+      &quot;suite&quot;: &quot;Apt. 950&quot;,
+      &quot;city&quot;: &quot;South Christy&quot;,
+      &quot;zipcode&quot;: &quot;23505-1337&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-71.4197&quot;,
+        &quot;lng&quot;: &quot;71.7478&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;1-477-935-8478 x6430&quot;,
+    &quot;website&quot;: &quot;ola.org&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Considine-Lockman&quot;,
+      &quot;catchPhrase&quot;: &quot;Synchronised bottom-line interface&quot;,
+      &quot;bs&quot;: &quot;e-enable innovative applications&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 7,
+    &quot;name&quot;: &quot;Kurtis Weissnat&quot;,
+    &quot;username&quot;: &quot;Elwyn.Skiles&quot;,
+    &quot;email&quot;: &quot;Telly.Hoeger@billy.biz&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Rex Trail&quot;,
+      &quot;suite&quot;: &quot;Suite 280&quot;,
+      &quot;city&quot;: &quot;Howemouth&quot;,
+      &quot;zipcode&quot;: &quot;58804-1099&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;24.8918&quot;,
+        &quot;lng&quot;: &quot;21.8984&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;210.067.6132&quot;,
+    &quot;website&quot;: &quot;elvis.io&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Johns Group&quot;,
+      &quot;catchPhrase&quot;: &quot;Configurable multimedia task-force&quot;,
+      &quot;bs&quot;: &quot;generate enterprise e-tailers&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 8,
+    &quot;name&quot;: &quot;Nicholas Runolfsdottir V&quot;,
+    &quot;username&quot;: &quot;Maxime_Nienow&quot;,
+    &quot;email&quot;: &quot;Sherwood@rosamond.me&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Ellsworth Summit&quot;,
+      &quot;suite&quot;: &quot;Suite 729&quot;,
+      &quot;city&quot;: &quot;Aliyaview&quot;,
+      &quot;zipcode&quot;: &quot;45169&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-14.3990&quot;,
+        &quot;lng&quot;: &quot;-120.7677&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;586.493.6943 x140&quot;,
+    &quot;website&quot;: &quot;jacynthe.com&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Abernathy Group&quot;,
+      &quot;catchPhrase&quot;: &quot;Implemented secondary concept&quot;,
+      &quot;bs&quot;: &quot;e-enable extensible e-tailers&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 9,
+    &quot;name&quot;: &quot;Glenna Reichert&quot;,
+    &quot;username&quot;: &quot;Delphine&quot;,
+    &quot;email&quot;: &quot;Chaim_McDermott@dana.io&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Dayna Park&quot;,
+      &quot;suite&quot;: &quot;Suite 449&quot;,
+      &quot;city&quot;: &quot;Bartholomebury&quot;,
+      &quot;zipcode&quot;: &quot;76495-3109&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;24.6463&quot;,
+        &quot;lng&quot;: &quot;-168.8889&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;(775)976-6794 x41206&quot;,
+    &quot;website&quot;: &quot;conrad.com&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Yost and Sons&quot;,
+      &quot;catchPhrase&quot;: &quot;Switchable contextually-based project&quot;,
+      &quot;bs&quot;: &quot;aggregate real-time technologies&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;name&quot;: &quot;Clementina DuBuque&quot;,
+    &quot;username&quot;: &quot;Moriah.Stanton&quot;,
+    &quot;email&quot;: &quot;Rey.Padberg@karina.biz&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Kattie Turnpike&quot;,
+      &quot;suite&quot;: &quot;Suite 198&quot;,
+      &quot;city&quot;: &quot;Lebsackbury&quot;,
+      &quot;zipcode&quot;: &quot;31428-2261&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-38.2386&quot;,
+        &quot;lng&quot;: &quot;57.2232&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;024-648-3804&quot;,
+    &quot;website&quot;: &quot;ambrose.net&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Hoeger LLC&quot;,
+      &quot;catchPhrase&quot;: &quot;Centralized empowering task-force&quot;,
+      &quot;bs&quot;: &quot;target end-to-end models&quot;
+    }
+  }
+]
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def status = data.responseStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print status</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">18:23:29.670 [print] 200 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jsonResponse =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.18">{
+&quot;id&quot;:&quot;#string&quot;,
+&quot;name&quot;:&quot;#string&quot;,
+&quot;desc&quot;:&quot;#string&quot;,
+&quot;descData&quot;:&quot;#null&quot;,
+&quot;closed&quot;:&quot;#boolean&quot;,
+&quot;idOrganization&quot;:&quot;#string&quot;,
+&quot;idEnterprise&quot;:&quot;#null&quot;,
+&quot;pinned&quot;:#boolean,
+&quot;url&quot;:&quot;#string&quot;,
+&quot;shortUrl&quot;:&quot;#string&quot;,
+&quot;prefs&quot;:{
+   &quot;permissionLevel&quot;:&quot;#string&quot;,
+   &quot;hideVotes&quot;:&quot;#boolean&quot;,
+   &quot;voting&quot;:&quot;#string&quot;,
+   &quot;comments&quot;:&quot;#string&quot;,
+   &quot;invitations&quot;:&quot;#string&quot;,
+&quot;selfJoin&quot;:&quot;#boolean&quot;,
+   &quot;cardCovers&quot;:&quot;#boolean&quot;,
+   &quot;isTemplate&quot;:&quot;#boolean&quot;,
+   &quot;cardAging&quot;:&quot;#string&quot;,
+   &quot;calendarFeedEnabled&quot;:&quot;#boolean&quot;,
+   &quot;isPluginHeaderShortcutsEnabled&quot;:&quot;#boolean&quot;,
+   &quot;enabledPluginBoardButtons&quot;:&quot;#array&quot;,
+   &quot;background&quot;:&quot;#string&quot;,
+   &quot;backgroundImage&quot;:&quot;#null&quot;,
+   &quot;backgroundImageScaled&quot;:&quot;#null&quot;,
+   &quot;backgroundTile&quot;:&quot;#boolean&quot;,
+   &quot;backgroundBrightness&quot;:&quot;#string&quot;,
+   &quot;backgroundColor&quot;:&quot;#string&quot;,
+   &quot;backgroundBottomColor&quot;:&quot;#string&quot;,
+   &quot;backgroundTopColor&quot;:&quot;#string&quot;,
+   &quot;canBePublic&quot;:&quot;#boolean&quot;,
+   &quot;canBeEnterprise&quot;:&quot;#boolean&quot;,
+   &quot;canBeOrg&quot;:&quot;#boolean&quot;,
+   &quot;canBePrivate&quot;:&quot;#boolean&quot;,
+   &quot;canInvite&quot;:&quot;#boolean&quot;
+}
+,
+&quot;labelNames&quot;:{
+   &quot;green&quot;:&quot;#string&quot;,
+   &quot;yellow&quot;:&quot;#string&quot;,
+   &quot;orange&quot;:&quot;#string&quot;,
+   &quot;red&quot;:&quot;#string&quot;,
+   &quot;purple&quot;:&quot;#string&quot;,
+   &quot;blue&quot;:&quot;#string&quot;,
+   &quot;sky&quot;:&quot;#string&quot;,
+   &quot;lime&quot;:&quot;#string&quot;,
+   &quot;pink&quot;:&quot;#string&quot;,
+   &quot;black&quot;:&quot;#string&quot;
+},
+&quot;limits&quot;:&quot;#object&quot;
+ }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.77">
+      <div class="step-ref passed">77</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def boardsResponse = call read(&#39;boards-post.feature@create&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1015</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.77.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">src.test.java.trello.boards.boards-post</div>
+      </div>
+      <div class="time-cell passed">1008</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url url</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;boards&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>params { key: #(key), token: #(token)}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">994</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.77.0.call.0.11">18:23:29.701 request:
+1 &gt; POST https://trello.com/1/boards?key=38e7987a4fa0c6195e8c27df9d27c099&amp;token=25c156a6489e519ab5e799bfbf14601721a4438835ea2c1efbb9cca7c4248ad3
+1 &gt; Accept: application/json
+1 &gt; transaction-id: test212211
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 28
+1 &gt; Host: trello.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;CreadoDesdeKarate&quot;}
+
+18:23:30.671 response time in milliseconds: 970
+1 &lt; 200
+1 &lt; X-Dns-Prefetch-Control: off
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Surrogate-Control: no-store
+1 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+1 &lt; Pragma: no-cache
+1 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+1 &lt; X-Trello-Version: 1.97361.0
+1 &lt; X-Trello-Environment: Production
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+1 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+1 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+1 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Token-Max: 100
+1 &lt; X-Rate-Limit-Api-Token-Remaining: 99
+1 &lt; X-Rate-Limit-Action-Interval-Ms: 3600000
+1 &lt; X-Rate-Limit-Action-Max: 15000
+1 &lt; X-Rate-Limit-Action-Remaining: 14999
+1 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Key-Max: 300
+1 &lt; X-Rate-Limit-Api-Key-Remaining: 299
+1 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Member-Max: 375
+1 &lt; X-Rate-Limit-Member-Remaining: 374
+1 &lt; X-Server-Time: 1636673011095
+1 &lt; X-Trello-Api-Org-Selected: true
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Thu, 11 Nov 2021 23:23:31 GMT
+1 &lt; X-Envoy-Upstream-Service-Time: 203
+1 &lt; Expect-Ct: report-uri=&quot;https://web-security-reports.services.atlassian.com/expect-ct-report/trello-edge&quot;, max-age=86400
+1 &lt; Strict-Transport-Security: max-age=63072000; preload
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; Atl-Traceid: 3e71eebf5e9e136c
+1 &lt; Report-To: {&quot;group&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dj9s4kmieytgz.cloudfront.net&quot;}], &quot;include_subdomains&quot;: true}
+1 &lt; Nel: {&quot;report_to&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;include_subdomains&quot;: true, &quot;failure_fraction&quot;: 0.001}
+1 &lt; Server: globaledge-envoy
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Set-Cookie: preAuthProps=s%3A5bc6b8ae3b95c8743c81cb8b%3AisEnterpriseAdmin%3Dfalse.pxZ9vHjJ4zTAz72EaSqZA81L4uGY1qxgeTeQaAHGv1U; Domain=trello.com
+{&quot;id&quot;:&quot;618da5f27064ce070cb88670&quot;,&quot;name&quot;:&quot;CreadoDesdeKarate&quot;,&quot;desc&quot;:&quot;&quot;,&quot;descData&quot;:null,&quot;closed&quot;:false,&quot;idOrganization&quot;:&quot;60d516e393afe75a7add4627&quot;,&quot;idEnterprise&quot;:null,&quot;pinned&quot;:false,&quot;url&quot;:&quot;https://trello.com/b/HWLO2iTh/creadodesdekarate&quot;,&quot;shortUrl&quot;:&quot;https://trello.com/b/HWLO2iTh&quot;,&quot;prefs&quot;:{&quot;permissionLevel&quot;:&quot;private&quot;,&quot;hideVotes&quot;:false,&quot;voting&quot;:&quot;disabled&quot;,&quot;comments&quot;:&quot;members&quot;,&quot;invitations&quot;:&quot;members&quot;,&quot;selfJoin&quot;:true,&quot;cardCovers&quot;:true,&quot;isTemplate&quot;:false,&quot;cardAging&quot;:&quot;regular&quot;,&quot;calendarFeedEnabled&quot;:false,&quot;isPluginHeaderShortcutsEnabled&quot;:false,&quot;enabledPluginBoardButtons&quot;:[],&quot;background&quot;:&quot;blue&quot;,&quot;backgroundImage&quot;:null,&quot;backgroundImageScaled&quot;:null,&quot;backgroundTile&quot;:false,&quot;backgroundBrightness&quot;:&quot;dark&quot;,&quot;backgroundColor&quot;:&quot;#0079BF&quot;,&quot;backgroundBottomColor&quot;:&quot;#0079BF&quot;,&quot;backgroundTopColor&quot;:&quot;#0079BF&quot;,&quot;canBePublic&quot;:true,&quot;canBeEnterprise&quot;:true,&quot;canBeOrg&quot;:true,&quot;canBePrivate&quot;:true,&quot;canInvite&quot;:true},&quot;labelNames&quot;:{&quot;green&quot;:&quot;&quot;,&quot;yellow&quot;:&quot;&quot;,&quot;orange&quot;:&quot;&quot;,&quot;red&quot;:&quot;&quot;,&quot;purple&quot;:&quot;&quot;,&quot;blue&quot;:&quot;&quot;,&quot;sky&quot;:&quot;&quot;,&quot;lime&quot;:&quot;&quot;,&quot;pink&quot;:&quot;&quot;,&quot;black&quot;:&quot;&quot;},&quot;limits&quot;:{}}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>assert responseTime &lt;3000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match responseType == &#39;json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>assert responseStatus == 200 || responseStatus == 204</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def contentType = responseHeaders[&#39;Content-Type&#39;][0]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.77.0.call">
+    <div class="step-container" id="0.77.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match contentType contains &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.78">
+      <div class="step-ref passed">78</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def boardId = boardsResponse.response.id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.79">
+      <div class="step-ref passed">79</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match boardsResponse.response contains jsonResponse</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.80">
+      <div class="step-ref passed">80</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print boardsResponse.responseStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.80">18:23:30.687 [print] 200 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.81">
+      <div class="step-ref passed">81</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print boardsResponse.responseCookies</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.81">18:23:30.687 [print] null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.82">
+      <div class="step-ref passed">82</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print boardsResponse</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.82">18:23:30.687 [print] {
+  &quot;responseHeaders&quot;: {
+    &quot;X-Dns-Prefetch-Control&quot;: [
+      &quot;off&quot;
+    ],
+    &quot;X-Frame-Options&quot;: [
+      &quot;DENY&quot;
+    ],
+    &quot;X-Download-Options&quot;: [
+      &quot;noopen&quot;
+    ],
+    &quot;X-Permitted-Cross-Domain-Policies&quot;: [
+      &quot;none&quot;
+    ],
+    &quot;Referrer-Policy&quot;: [
+      &quot;strict-origin-when-cross-origin&quot;
+    ],
+    &quot;Surrogate-Control&quot;: [
+      &quot;no-store&quot;
+    ],
+    &quot;Cache-Control&quot;: [
+      &quot;max-age=0, must-revalidate, no-cache, no-store&quot;
+    ],
+    &quot;Pragma&quot;: [
+      &quot;no-cache&quot;
+    ],
+    &quot;Expires&quot;: [
+      &quot;Thu, 01 Jan 1970 00:00:00&quot;
+    ],
+    &quot;X-Trello-Version&quot;: [
+      &quot;1.97361.0&quot;
+    ],
+    &quot;X-Trello-Environment&quot;: [
+      &quot;Production&quot;
+    ],
+    &quot;Access-Control-Allow-Origin&quot;: [
+      &quot;*&quot;
+    ],
+    &quot;Access-Control-Allow-Methods&quot;: [
+      &quot;GET, PUT, POST, DELETE&quot;
+    ],
+    &quot;Access-Control-Allow-Headers&quot;: [
+      &quot;Authorization, Accept, Content-Type&quot;
+    ],
+    &quot;Access-Control-Expose-Headers&quot;: [
+      &quot;x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining&quot;
+    ],
+    &quot;X-Rate-Limit-Api-Token-Interval-Ms&quot;: [
+      &quot;10000&quot;
+    ],
+    &quot;X-Rate-Limit-Api-Token-Max&quot;: [
+      &quot;100&quot;
+    ],
+    &quot;X-Rate-Limit-Api-Token-Remaining&quot;: [
+      &quot;99&quot;
+    ],
+    &quot;X-Rate-Limit-Action-Interval-Ms&quot;: [
+      &quot;3600000&quot;
+    ],
+    &quot;X-Rate-Limit-Action-Max&quot;: [
+      &quot;15000&quot;
+    ],
+    &quot;X-Rate-Limit-Action-Remaining&quot;: [
+      &quot;14999&quot;
+    ],
+    &quot;X-Rate-Limit-Api-Key-Interval-Ms&quot;: [
+      &quot;10000&quot;
+    ],
+    &quot;X-Rate-Limit-Api-Key-Max&quot;: [
+      &quot;300&quot;
+    ],
+    &quot;X-Rate-Limit-Api-Key-Remaining&quot;: [
+      &quot;299&quot;
+    ],
+    &quot;X-Rate-Limit-Member-Interval-Ms&quot;: [
+      &quot;10000&quot;
+    ],
+    &quot;X-Rate-Limit-Member-Max&quot;: [
+      &quot;375&quot;
+    ],
+    &quot;X-Rate-Limit-Member-Remaining&quot;: [
+      &quot;374&quot;
+    ],
+    &quot;X-Server-Time&quot;: [
+      &quot;1636673011095&quot;
+    ],
+    &quot;X-Trello-Api-Org-Selected&quot;: [
+      &quot;true&quot;
+    ],
+    &quot;Content-Type&quot;: [
+      &quot;application/json; charset=utf-8&quot;
+    ],
+    &quot;Date&quot;: [
+      &quot;Thu, 11 Nov 2021 23:23:31 GMT&quot;
+    ],
+    &quot;X-Envoy-Upstream-Service-Time&quot;: [
+      &quot;203&quot;
+    ],
+    &quot;Expect-Ct&quot;: [
+      &quot;report-uri=\&quot;https://web-security-reports.services.atlassian.com/expect-ct-report/trello-edge\&quot;, max-age=86400&quot;
+    ],
+    &quot;Strict-Transport-Security&quot;: [
+      &quot;max-age=63072000; preload&quot;
+    ],
+    &quot;X-Content-Type-Options&quot;: [
+      &quot;nosniff&quot;
+    ],
+    &quot;X-Xss-Protection&quot;: [
+      &quot;1; mode=block&quot;
+    ],
+    &quot;Atl-Traceid&quot;: [
+      &quot;3e71eebf5e9e136c&quot;
+    ],
+    &quot;Report-To&quot;: [
+      &quot;{\&quot;group\&quot;: \&quot;endpoint-1\&quot;, \&quot;max_age\&quot;: 600, \&quot;endpoints\&quot;: [{\&quot;url\&quot;: \&quot;https://dj9s4kmieytgz.cloudfront.net\&quot;}], \&quot;include_subdomains\&quot;: true}&quot;
+    ],
+    &quot;Nel&quot;: [
+      &quot;{\&quot;report_to\&quot;: \&quot;endpoint-1\&quot;, \&quot;max_age\&quot;: 600, \&quot;include_subdomains\&quot;: true, \&quot;failure_fraction\&quot;: 0.001}&quot;
+    ],
+    &quot;Server&quot;: [
+      &quot;globaledge-envoy&quot;
+    ],
+    &quot;Transfer-Encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+      &quot;preAuthProps=s%3A5bc6b8ae3b95c8743c81cb8b%3AisEnterpriseAdmin%3Dfalse.pxZ9vHjJ4zTAz72EaSqZA81L4uGY1qxgeTeQaAHGv1U; Domain=trello.com&quot;
+    ]
+  },
+  &quot;responseStatus&quot;: 200,
+  &quot;contentType&quot;: &quot;application/json; charset=utf-8&quot;,
+  &quot;response&quot;: {
+    &quot;id&quot;: &quot;618da5f27064ce070cb88670&quot;,
+    &quot;name&quot;: &quot;CreadoDesdeKarate&quot;,
+    &quot;desc&quot;: &quot;&quot;,
+    &quot;descData&quot;: null,
+    &quot;closed&quot;: false,
+    &quot;idOrganization&quot;: &quot;60d516e393afe75a7add4627&quot;,
+    &quot;idEnterprise&quot;: null,
+    &quot;pinned&quot;: false,
+    &quot;url&quot;: &quot;https://trello.com/b/HWLO2iTh/creadodesdekarate&quot;,
+    &quot;shortUrl&quot;: &quot;https://trello.com/b/HWLO2iTh&quot;,
+    &quot;prefs&quot;: {
+      &quot;permissionLevel&quot;: &quot;private&quot;,
+      &quot;hideVotes&quot;: false,
+      &quot;voting&quot;: &quot;disabled&quot;,
+      &quot;comments&quot;: &quot;members&quot;,
+      &quot;invitations&quot;: &quot;members&quot;,
+      &quot;selfJoin&quot;: true,
+      &quot;cardCovers&quot;: true,
+      &quot;isTemplate&quot;: false,
+      &quot;cardAging&quot;: &quot;regular&quot;,
+      &quot;calendarFeedEnabled&quot;: false,
+      &quot;isPluginHeaderShortcutsEnabled&quot;: false,
+      &quot;enabledPluginBoardButtons&quot;: [
+      ],
+      &quot;background&quot;: &quot;blue&quot;,
+      &quot;backgroundImage&quot;: null,
+      &quot;backgroundImageScaled&quot;: null,
+      &quot;backgroundTile&quot;: false,
+      &quot;backgroundBrightness&quot;: &quot;dark&quot;,
+      &quot;backgroundColor&quot;: &quot;#0079BF&quot;,
+      &quot;backgroundBottomColor&quot;: &quot;#0079BF&quot;,
+      &quot;backgroundTopColor&quot;: &quot;#0079BF&quot;,
+      &quot;canBePublic&quot;: true,
+      &quot;canBeEnterprise&quot;: true,
+      &quot;canBeOrg&quot;: true,
+      &quot;canBePrivate&quot;: true,
+      &quot;canInvite&quot;: true
+    },
+    &quot;labelNames&quot;: {
+      &quot;green&quot;: &quot;&quot;,
+      &quot;yellow&quot;: &quot;&quot;,
+      &quot;orange&quot;: &quot;&quot;,
+      &quot;red&quot;: &quot;&quot;,
+      &quot;purple&quot;: &quot;&quot;,
+      &quot;blue&quot;: &quot;&quot;,
+      &quot;sky&quot;: &quot;&quot;,
+      &quot;lime&quot;: &quot;&quot;,
+      &quot;pink&quot;: &quot;&quot;,
+      &quot;black&quot;: &quot;&quot;
+    },
+    &quot;limits&quot;: {
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def boardsResponse = (boardsResponse.responseStatus == 200) ? karate.call(&#39;classpath:some-reusable.feature@deleteBoard&#39;):karate.call(&#39;classpath:some-reusable.feature@deleteBoardWithTime&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1082</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.83.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">some-reusable</div>
+      </div>
+      <div class="time-cell passed">1075</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.83.0.call">
+    <div class="step-container" id="0.83.0.call.0.3">
+      <div class="step-ref passed">3</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url url</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.83.0.call">
+    <div class="step-container" id="0.83.0.call.0.6">
+      <div class="step-ref passed">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;boards&#39;,boardId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.83.0.call">
+    <div class="step-container" id="0.83.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>params { key: #(key), token: #(token)}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.83.0.call">
+    <div class="step-container" id="0.83.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1066</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.83.0.call.0.8">18:23:30.714 request:
+1 &gt; DELETE https://trello.com/1/boards/618da5f27064ce070cb88670?key=38e7987a4fa0c6195e8c27df9d27c099&amp;token=25c156a6489e519ab5e799bfbf14601721a4438835ea2c1efbb9cca7c4248ad3
+1 &gt; Accept: application/json
+1 &gt; transaction-id: test212211
+1 &gt; Host: trello.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:23:31.778 response time in milliseconds: 1048
+1 &lt; 200
+1 &lt; X-Dns-Prefetch-Control: off
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Surrogate-Control: no-store
+1 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+1 &lt; Pragma: no-cache
+1 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+1 &lt; X-Trello-Version: 1.97361.0
+1 &lt; X-Trello-Environment: Production
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+1 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+1 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+1 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Token-Max: 100
+1 &lt; X-Rate-Limit-Api-Token-Remaining: 98
+1 &lt; X-Rate-Limit-Action-Interval-Ms: 3600000
+1 &lt; X-Rate-Limit-Action-Max: 15000
+1 &lt; X-Rate-Limit-Action-Remaining: 14999
+1 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Key-Max: 300
+1 &lt; X-Rate-Limit-Api-Key-Remaining: 298
+1 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Member-Max: 375
+1 &lt; X-Rate-Limit-Member-Remaining: 372
+1 &lt; X-Server-Time: 1636673012198
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Thu, 11 Nov 2021 23:23:32 GMT
+1 &lt; X-Envoy-Upstream-Service-Time: 407
+1 &lt; Expect-Ct: report-uri=&quot;https://web-security-reports.services.atlassian.com/expect-ct-report/trello-edge&quot;, max-age=86400
+1 &lt; Strict-Transport-Security: max-age=63072000; preload
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; Atl-Traceid: 6ddfbb248dff96b2
+1 &lt; Report-To: {&quot;group&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dj9s4kmieytgz.cloudfront.net&quot;}], &quot;include_subdomains&quot;: true}
+1 &lt; Nel: {&quot;report_to&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;include_subdomains&quot;: true, &quot;failure_fraction&quot;: 0.001}
+1 &lt; Server: globaledge-envoy
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Set-Cookie: preAuthProps=s%3A5bc6b8ae3b95c8743c81cb8b%3AisEnterpriseAdmin%3Dfalse.pxZ9vHjJ4zTAz72EaSqZA81L4uGY1qxgeTeQaAHGv1U; Domain=trello.com
+{&quot;_value&quot;:null}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.83.0.call">
+    <div class="step-container" id="0.83.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.84">
+      <div class="step-ref passed">84</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def suma = 1&gt;2 ? function suma(cadena,separator){return cadena.split(separator)}: read(&#39;classpath:some-classpath-function.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def suma = read(&#39;classpath:some-classpath-function.js&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.86">
+      <div class="step-ref passed">86</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def cadena = &quot;1|2|3|4|5&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.87">
+      <div class="step-ref passed">87</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def array = suma(cadena,&#39;|&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.88">
+      <div class="step-ref passed">88</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print array</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.88">18:23:31.793 [print] 15 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.89">
+      <div class="step-ref failed">89</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def random = Java.type(Utiles)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.89">18:23:31.809 src/test/java/trello/boards/board-crud.feature:89
+* def random = Java.type(Utiles)
+js failed:
+&gt;&gt;&gt;&gt;
+01: Java.type(Utiles)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;Utiles&quot; is not defined
+- &lt;js&gt;.:program(Unnamed:1)
+
+src/test/java/trello/boards/board-crud.feature:89
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.90">
+      <div class="step-ref skipped">90</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print random.getToken()</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

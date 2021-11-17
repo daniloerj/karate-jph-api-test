@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.trello.boards.board-crud</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-11-11 05:37:18 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:18]"><span>[1:18]</span> <span>create board</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/trello/boards/board-crud.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">board test script</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:18]</span>
+                <span class="scenario-name">create board</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>540</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url url</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">17:37:17.836 karate.env system property was: null 
+17:37:17.836 karate.company system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestBody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">28</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.4">{
+  &quot;name&quot;:&quot;CreadoDesdeKarate&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = _headers</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">352</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jsonData = read(&#39;data/jph.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def data = 1&gt;2 ? karate.call(&#39;jph.feature@getUsers&#39;) : karate.call(&#39;jph.feature@getPosts&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def data = call read(&#39;jph.feature@getUsers&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">151</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">17:37:18.394 src/test/java/trello/boards/board-crud.feature:14
+* def data = call read(&#39;jph.feature@getUsers&#39;)
+http call failed after 131 milliseconds for url: https://jsonplaceholder.typicode.com/users
+src/test/java/trello/boards/jph.feature:8
+src/test/java/trello/boards/board-crud.feature:14
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.14.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">src.test.java.trello.boards.jph</div>
+      </div>
+      <div class="time-cell passed">136</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.14.0.call">
+    <div class="step-container" id="0.14.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://jsonplaceholder.typicode.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.14.0.call">
+    <div class="step-container" id="0.14.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.14.0.call">
+    <div class="step-container" id="0.14.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell failed">135</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14.0.call.0.8">17:37:18.314 request:
+1 &gt; GET https://jsonplaceholder.typicode.com/users
+1 &gt; Accept: application/json
+1 &gt; transaction-id: test212211
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:37:18.394 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure, http call failed after 131 milliseconds for url: https://jsonplaceholder.typicode.com/users
+17:37:18.394 src/test/java/trello/boards/jph.feature:8
+When method get
+http call failed after 131 milliseconds for url: https://jsonplaceholder.typicode.com/users
+src/test/java/trello/boards/jph.feature:8
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.14.0.call">
+    <div class="step-container" id="0.14.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def status = data.responseStatus</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print status</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def jsonResponse =</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.19">{
+&quot;id&quot;:&quot;#string&quot;,
+&quot;name&quot;:&quot;#string&quot;,
+&quot;desc&quot;:&quot;#string&quot;,
+&quot;descData&quot;:&quot;#null&quot;,
+&quot;closed&quot;:&quot;#boolean&quot;,
+&quot;idOrganization&quot;:&quot;#string&quot;,
+&quot;idEnterprise&quot;:&quot;#null&quot;,
+&quot;pinned&quot;:#boolean,
+&quot;url&quot;:&quot;#string&quot;,
+&quot;shortUrl&quot;:&quot;#string&quot;,
+&quot;prefs&quot;:{
+   &quot;permissionLevel&quot;:&quot;#string&quot;,
+   &quot;hideVotes&quot;:&quot;#boolean&quot;,
+   &quot;voting&quot;:&quot;#string&quot;,
+   &quot;comments&quot;:&quot;#string&quot;,
+   &quot;invitations&quot;:&quot;#string&quot;,
+&quot;selfJoin&quot;:&quot;#boolean&quot;,
+   &quot;cardCovers&quot;:&quot;#boolean&quot;,
+   &quot;isTemplate&quot;:&quot;#boolean&quot;,
+   &quot;cardAging&quot;:&quot;#string&quot;,
+   &quot;calendarFeedEnabled&quot;:&quot;#boolean&quot;,
+   &quot;isPluginHeaderShortcutsEnabled&quot;:&quot;#boolean&quot;,
+   &quot;enabledPluginBoardButtons&quot;:&quot;#array&quot;,
+   &quot;background&quot;:&quot;#string&quot;,
+   &quot;backgroundImage&quot;:&quot;#null&quot;,
+   &quot;backgroundImageScaled&quot;:&quot;#null&quot;,
+   &quot;backgroundTile&quot;:&quot;#boolean&quot;,
+   &quot;backgroundBrightness&quot;:&quot;#string&quot;,
+   &quot;backgroundColor&quot;:&quot;#string&quot;,
+   &quot;backgroundBottomColor&quot;:&quot;#string&quot;,
+   &quot;backgroundTopColor&quot;:&quot;#string&quot;,
+   &quot;canBePublic&quot;:&quot;#boolean&quot;,
+   &quot;canBeEnterprise&quot;:&quot;#boolean&quot;,
+   &quot;canBeOrg&quot;:&quot;#boolean&quot;,
+   &quot;canBePrivate&quot;:&quot;#boolean&quot;,
+   &quot;canInvite&quot;:&quot;#boolean&quot;
+}
+,
+&quot;labelNames&quot;:{
+   &quot;green&quot;:&quot;#string&quot;,
+   &quot;yellow&quot;:&quot;#string&quot;,
+   &quot;orange&quot;:&quot;#string&quot;,
+   &quot;red&quot;:&quot;#string&quot;,
+   &quot;purple&quot;:&quot;#string&quot;,
+   &quot;blue&quot;:&quot;#string&quot;,
+   &quot;sky&quot;:&quot;#string&quot;,
+   &quot;lime&quot;:&quot;#string&quot;,
+   &quot;pink&quot;:&quot;#string&quot;,
+   &quot;black&quot;:&quot;#string&quot;
+},
+&quot;limits&quot;:&quot;#object&quot;
+ }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.78">
+      <div class="step-ref skipped">78</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def boardsResponse = call read(&#39;boards-post.feature@create&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.79">
+      <div class="step-ref skipped">79</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def boardId = boardsResponse.response.id</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.80">
+      <div class="step-ref skipped">80</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>match boardsResponse.response contains jsonResponse</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.81">
+      <div class="step-ref skipped">81</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print boardsResponse.responseStatus</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.82">
+      <div class="step-ref skipped">82</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def boardsResponse = (boardsResponse.responseStatus == 200) ? karate.call(&#39;classpath:some-reusable.feature@deleteBoard&#39;):karate.call(&#39;classpath:some-reusable.feature@deleteBoardWithTime&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.83">
+      <div class="step-ref skipped">83</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def suma = 1&gt;2 ? function suma(cadena,separator){return cadena.split(separator)}: read(&#39;classpath:some-classpath-function.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def suma = read(&#39;classpath:some-classpath-function.js&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def cadena = &quot;1|2|3|4|5&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.86">
+      <div class="step-ref skipped">86</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def array = suma(cadena,&#39;|&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.87">
+      <div class="step-ref skipped">87</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print array</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
